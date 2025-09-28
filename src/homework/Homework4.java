@@ -35,6 +35,7 @@ public class Homework4 {
             for (int j = i + 1; j < numbers2.length; j++) {
                 if (numbers2[i] == numbers2[j]) {
                     count2++;
+                    break;
                 }
 
             }
@@ -53,6 +54,7 @@ public class Homework4 {
             for (int j = 0; j < vowel.length; j++) {
                 if (chars[i] == vowel[j]) {
                     count3++;
+                    break;
                 }
                 {
 
